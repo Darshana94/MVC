@@ -17,7 +17,7 @@ namespace MVC.Controllers
         public ActionResult Index()
         {
             bool i = DB.Close();
-            if (i = true)
+            if (i == true)
             {
                 return Content(i.ToString());
             }
