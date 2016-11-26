@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MVC5.Models
+namespace Project_MVC5.Models
 {
     using System;
     using System.Collections.Generic;

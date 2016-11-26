@@ -7,14 +7,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MVC5.Models
+namespace Project_MVC5.Models
 {
     using System;
     using System.Collections.Generic;
     
     public partial class tb_order_detail
     {
-        public int ID_orderDetail { get; set; }
+        public int ID_orderDetails { get; set; }
         public Nullable<int> ID_order { get; set; }
         public Nullable<int> ID_Product { get; set; }
         public string Name_product { get; set; }

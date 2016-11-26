@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MVC5.Models
+namespace Project_MVC5.Models
 {
     using System;
     using System.Collections.Generic;
@@ -15,9 +15,9 @@ namespace MVC5.Models
     public partial class tb_order
     {
         public int ID_order { get; set; }
-        public string Code_order { get; set; }
-        public string Name_order { get; set; }
-        public string Type_order { get; set; }
+        public string Code_Order { get; set; }
+        public string Name_Order { get; set; }
+        public string Type_Order { get; set; }
         public Nullable<System.DateTime> Create_date { get; set; }
         public Nullable<double> Total_money { get; set; }
     }

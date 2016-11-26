@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace MVC5
+namespace Project_MVC5
 {
     public class MvcApplication : System.Web.HttpApplication
     {
@@ -17,5 +17,7 @@ namespace MVC5
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+
+
     }
 }

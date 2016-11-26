@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace MVC5
+namespace Project_MVC5
 {
     public class BundleConfig
     {
@@ -10,6 +10,14 @@ namespace MVC5
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
+            bundles.Add(new ScriptBundle("~/Scripts/dashboard").Include(
+            "~/Scripts/dashboard.js"));
+            bundles.Add(new ScriptBundle("~/Scripts/app").Include(
+            "~/Scripts/app.min.js"));
+            bundles.Add(new ScriptBundle("~/Scripts/demo").Include(
+            "~/Scripts/demo.js"));
+            bundles.Add(new ScriptBundle("~/Scripts/jquery").Include(
+             "~/Scripts/jquery-2.2.3.min.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));

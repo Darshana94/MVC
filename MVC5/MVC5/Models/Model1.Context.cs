@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MVC5.Models
+namespace Project_MVC5.Models
 {
     using System;
     using System.Data.Entity;
@@ -26,7 +26,11 @@ namespace MVC5.Models
         }
     
         public virtual DbSet<tb_order> tb_order { get; set; }
-        public virtual DbSet<tb_order_detail> tb_order_detail { get; set; }
         public virtual DbSet<tb_Product> tb_Product { get; set; }
+        public virtual DbSet<tb_order_detail> tb_order_detail { get; set; }
+        public virtual DbSet<tb_Cart> tb_Cart { get; set; }
+        public virtual DbSet<tb_Supplier> tb_Supplier { get; set; }
+        public virtual DbSet<tb_SalesOrder> tb_SalesOrder { get; set; }
+        public virtual DbSet<tb_Sales> tb_Sales { get; set; }
     }
 }
